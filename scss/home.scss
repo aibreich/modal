@@ -1,0 +1,70 @@
+// for my home section i wanted to get some practice in for when we start the jungle cook so i did the first page.
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // this is the container that holds the two circles in the center of the page
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // this is the main jungle cook tag line that i had to give a z-index to make it lay under the main title circle
+    .pink-circle {
+      margin-left: -90px;
+      margin-top: -300px;
+      //   position: absolute;
+      //   top: 175px;
+      //   left: 750px;
+      border-radius: 50%;
+      background-color: #fcbcb8;
+      width: 175px;
+      height: 175px;
+      z-index: 1;
+
+      p {
+        width: 145px;
+        height: 75px;
+        text-align: center;
+        margin: 40px auto;
+      }
+    }
+
+    // this is the big yellow circle with the title jungle cook within its self and the little paragraph under it
+    .yellow-circle {
+      //   margin: 0 auto;
+      //   position: absolute;
+      //   top: 250px;
+      //   left: 530px;
+      border-radius: 50%;
+      background-color: #ffd972;
+      width: 300px;
+      height: 300px;
+      z-index: 2;
+
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 70px;
+      }
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 60px;
+        margin: 50px auto;
+        text-align: center;
+      }
+    }
+  }
+}

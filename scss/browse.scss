@@ -1,0 +1,108 @@
+// this is me scaling/ planning out how i would do the recipe page within the junglecook for added practice
+
+.browse {
+  padding: 50px;
+  width: 100vw;
+  height: 100vh;
+
+  h1 {
+    font-family: sans-serif;
+  }
+  // this is my parent container that holds the two sides
+  .container {
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+    width: 90vw;
+    height: 35vh;
+
+    // this left side contains all the odd # pictures in the browse page
+    .left-side {
+      // background-color: green;
+      width: 45vw;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // each of the images that are used within the left side
+      .img-1 {
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/food-1.jpeg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+      }
+      .img-3 {
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/food-3.jpeg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+      }
+      .img-5 {
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/food-5.jpeg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+      }
+      p {
+        width: 200px;
+        height: 200px;
+        margin-top: 25px;
+        margin-left: 15px;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: lightgrey;
+      }
+    }
+    // this is the right side of the container holding the even numbered pictures within the browse page
+    .right-side {
+      // background-color: yellow;
+      width: 45vw;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //  All the styling used within the even number of images
+      .img-2 {
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/food-2.jpeg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+      }
+
+      .img-4 {
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/food-4.jpeg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+      }
+      .img-6 {
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/food-6.jpeg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+      }
+
+      p {
+        width: 200px;
+        height: 200px;
+        margin-top: 25px;
+        margin-left: 15px;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: lightgrey;
+      }
+    }
+  }
+}

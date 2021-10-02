@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+.modal .bg-click {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.modal .callout {
+  width: 400px;
+  height: 240px;
+  z-index: 99;
+  background-color: white;
+  border-radius: 25px;
+}
+.modal h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+}
+.modal p {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.modal #callout-text {
+  margin-left: 125px;
+}
+.modal #submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 175px;
+  margin-top: 15px;
+}
+
+nav {
+  background-color: #000;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+nav .showmodal {
+  border-radius: 25px;
+  background-color: #fff;
+  width: 100px;
+  height: 50px;
+}
+nav .showmodal a {
+  color: #000;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  margin-top: 17px;
+  margin-left: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .container .pink-circle {
+  margin-left: -90px;
+  margin-top: -300px;
+  border-radius: 50%;
+  background-color: #fcbcb8;
+  width: 175px;
+  height: 175px;
+  z-index: 1;
+}
+.home .container .pink-circle p {
+  width: 145px;
+  height: 75px;
+  text-align: center;
+  margin: 40px auto;
+}
+.home .container .yellow-circle {
+  border-radius: 50%;
+  background-color: #ffd972;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+}
+.home .container .yellow-circle h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.home .container .yellow-circle p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.browse {
+  padding: 50px;
+  width: 100vw;
+  height: 100vh;
+}
+.browse h1 {
+  font-family: sans-serif;
+}
+.browse .container {
+  display: flex;
+  width: 90vw;
+  height: 35vh;
+}
+.browse .container .left-side {
+  width: 45vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.browse .container .left-side .img-1 {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/food-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.browse .container .left-side .img-3 {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/food-3.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.browse .container .left-side .img-5 {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/food-5.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.browse .container .left-side p {
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: lightgrey;
+}
+.browse .container .right-side {
+  width: 45vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.browse .container .right-side .img-2 {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/food-2.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.browse .container .right-side .img-4 {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/food-4.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.browse .container .right-side .img-6 {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/food-6.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.browse .container .right-side p {
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: lightgrey;
+}

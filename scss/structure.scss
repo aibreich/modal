@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+// this is the modal that is called on when you click log in
+.modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+
+  // this is the main background overlay to make the user focus on the callout
+  .bg-click {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  // this is the main modal box that contains all the info with signing in
+  .callout {
+    width: 400px;
+    height: 240px;
+    z-index: 99;
+    background-color: white;
+    border-radius: 25px;
+  }
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+  }
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    padding-top: 20px;
+  }
+  #callout-text {
+    margin-left: 125px;
+  }
+
+  #submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 175px;
+    margin-top: 15px;
+  }
+}
